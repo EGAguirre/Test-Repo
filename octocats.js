@@ -5,7 +5,7 @@ function Octocat(n,a){
   this.arms = a;
 
   this.slap = function(){
-    for(){
+    for(s=0;s<this.arms;s++){
       console.log("SLAP");
     }
   }
@@ -20,3 +20,5 @@ function Octocat(n,a){
 var youroctocat = new Octocat("Jimmy",8);
 var myoctocat = new Octocat("Whiskers",12);
 var hisoctocat = new Octocat("Squidward",6);
+
+youroctocat.slap()
